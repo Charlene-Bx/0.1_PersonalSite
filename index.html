@@ -1,0 +1,168 @@
+ <!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/Javascript" src="planetCbx_jvs.js"></script>
+    <link rel="stylesheet" href="planetCbx.css">
+    <title>PLANET CBX</title>
+</head>
+
+<body>
+
+<div class="viewport">
+
+<!-- Entête -->
+  <header>
+    <div id="intro">
+      <h1>Planet cbx</h1>
+      <p>Maybe <span class="txtbleu">human</span> Maybe <span class="txtrose">artist</span></p>
+    </div>
+  </header>
+<!-- Fin Entête -->
+
+<!-- Acceuil -->
+  <section id="acceuil">
+    <div id="test">
+
+    </div>
+  </section>
+<!-- Fin Acceuil -->
+
+</div>
+
+<!-- Navigation -->
+  <nav>
+    <button type="button" href="#acceuil"><a href="#acceuil">Acceuil</a></button>
+    <button type="button" href="#tatouage"><a href="#tatouage">Tatouage</a></button>
+    <button type="button" href="#atelier"><a href="#atelier">Atelier</a></button>
+    <button type="button" href="#boutique"><a href="#boutique">Boutique</a></button>
+    <button type="button" href="#contact"><a href="#contact">Contact</a></button> 
+  </nav>
+<!-- Fin Navigation -->
+
+<!-- Tatouage -->
+<section id="tatouage">
+    <h2 class="txtbleu"><span class="txtrose">♥</span> Tatouage <span class="txtrose">♥</span></h2>
+<!-- Test galerie d'images -->
+<div class="page">
+    <div class="slide">
+      <button class="bouton" onclick="moins()"> < </button>
+        <img class="slider" src="Images/tattoo1.jpg">
+      <button class="bouton" onclick="plus()"> > </button>
+    </div>
+<div class="slide">
+      <button class="bouton" onclick="moins()"> < </button>
+        <img class="slider" src="Images/motif1.jpg">
+      <button class="bouton" onclick="plus()"> > </button>
+    </div>
+</div>
+<!-- Fin de Test galerie d'images -->
+
+    <p>Planet CBX est avant tout un salon de tatouage privé qui n'ouvre ces portes que sur rendez-vous. Un catalogue de motifs est à votre disposition et vos projets personnels sont les bienvenus.</p>
+
+    <div class="inline">
+      <button class="bouton" onclick="book()">Regarder le book</button>
+      <button id="rdv" class="bouton" onclick="rdv()">Prendre rendez-vous</button>
+    </div>
+
+
+</section>
+
+<!-- Fin Tatouage -->
+<hr/>
+<!-- Atelier -->
+<section id="atelier">
+    
+    <h2 class="txtbleu"><span class="txtrose">♥</span> L'atelier <span class="txtrose">♥</span></h2>
+  <div id="conteneur">
+    <div class="miniature">
+      <a href="#1"> <img class="mini"src="Images/atelier2.jpg"></a>
+      <a href="#2"> <img class="mini"src="Images/atelier3.jpg"></a>
+      <a href="#3"> <img class="mini"src="Images/atelier4.jpg"></a>
+      <br/>
+      <a href="#4"> <img class="mini"src="Images/atelier6.jpg"></a>
+      <a href="#5"> <img class="mini"src="Images/atelier7.jpg"></a>
+      <a href="#6"> <img class="mini"src="Images/atelier8.jpg"></a>
+    </div>
+ <article>
+      <p>Planet CBX est en orbite autour de l'atelier d'effet speciaux d'FX Bubbles.
+        Plusieurs workshops et événements y sont réguliérement organisés, rendez-vous sur le site de l'atelier pour en savoir plus!
+      </p><br/>
+      <button class="bouton" href="https://fxbubbles.com/">Visiter le site web</button>
+ </article>
+  </div>
+</section>
+<!-- Fin Atelier -->
+<hr/>
+<!-- Boutique -->
+<section id="boutique">
+    
+    <h2 class="txtbleu"><span class="txtrose">♥</span> boutique <span class="txtrose">♥</span></h2>
+    <div class="galerieImg">
+      <p>Si tu le souhaites, tu peux acheter des fragements de la Planet CBX. C'est comme des morceaux de lune mais en moins cher.</p>
+  <table>
+    <tr>
+      <td><a href="#0"> <img src="Images/tattoo1.jpg"></a></td>
+      <td><a href="#1"> <img src="Images/tattoo2.jpg"></a></td>
+      <td><a href="#2"> <img src="Images/tattoo3.jpg"></a></td>
+      <td><a href="#3"> <img src="Images/tattoo4.jpg"></a></td>
+    </tr>
+    <tr>
+      <td><a href="#4"> <img src="Images/tattoo5.jpg"></a></td>
+      <td><a href="#5"> <img src="Images/tattoo6.jpg"></a></td>
+      <td><a href="#6"> <img src="Images/tattoo7.jpg"></a></td>
+      <td><a href="#7"> <img src="Images/tattoo8.jpg"></a></td>
+    </tr>
+  </table>
+</div>
+</section>
+<!-- Fin Tatouage -->
+<hr/>
+</section>
+<!-- Fin Boutique -->
+
+<!-- Contact -->
+<section id="contact">
+
+    <h2><span class="txtbleu">♥</span> contact <span class="txtbleu">♥</span></h2>
+    <p>Peut-être sur deux planétes differentes mais la communication est possible:</p></br>
+
+
+<h3>Par e-mail:</h3>
+    <form>
+      <input type="text" id="nom" value="nom" required></input></br>
+      <input type="email" id="adress" value="adresse@email.com" required></input></br>
+      <label for="message">Ton message:</label></br>
+      <textarea id="message" name="message" rows="5" cols="33" maxlength="300">Bonjour CBX, ...</textarea></br>
+      <button class="bouton" onclick="envoyer()">Etablir le contact</button>
+    </form>
+
+
+  <div id="reseaux">
+    <h3>Via les reseaux sociaux:</h3>
+    <a href="https://www.instagram.com/planetcbx/" target="_blank">
+      <img src="https://img.icons8.com/ios-glyphs/90/000000/instagram.png" />
+    </a>
+    <a href="https://www.facebook.com/PlanetCBX/" target="_blank">
+      <img alt="Facebook" src="https://img.icons8.com/material-outlined/96/000000/facebook.png/">
+    </a>
+  </div>
+
+</section>
+<!-- Fin Contact -->
+
+<!-- Footer -->
+<footer>
+  <ul>
+    <li>Copyright</li>
+    <li>Conditions générales</li>
+    <li>Contact</li>
+    <li>Hergement</li>
+  </ul>
+</footer>
+<!-- Fin Footer -->
+
+</body>
+</body>
+</html> 
