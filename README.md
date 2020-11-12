@@ -4,10 +4,10 @@
 Création d'un site web personnel.
 
 ### TO DO
-* Regler le probléme d'affiche de l'header (barre rose en bas)
-* Revoir le design général, trouver une utilité à ce site web (boutique, gallerie, ...)
-* Rendre le site entiérement responsive
-* Ajouter plus d'interactivité avec Javascript (les formulaires)
+* Regler le probléme d'affichage de l'header (barre rose en bas)
+* Creer une sorte de cadavre exquis automatique dans le header (generateur de monstres avec JavaScript; trois partie d'images qui defile et qui toutes les 5sec se fige pour creer un monstre composé de trois images choisies au hasard)
+* Repenser les galeries d'images (plus interactives)
+* Rendre le site entiérement responsive, et en faire une version mobile
 
 ### FOR
 [Planet CBX](https://www.instagram.com/planetcbx/).
